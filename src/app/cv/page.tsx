@@ -1,5 +1,5 @@
 import Navigation from '@/components/navigation';
-import { Mail, MapPin, ExternalLink, Download, Circle } from 'lucide-react';
+import { Mail, MapPin, ExternalLink, Circle } from 'lucide-react';
 
 export const metadata = {
   title: 'CV',

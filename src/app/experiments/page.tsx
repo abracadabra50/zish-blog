@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Navigation from '@/components/navigation';
 import { motion } from 'framer-motion';
-import { Code2, ExternalLink, Github, Palette, Zap, Cpu, ArrowUpRight, MessageSquare } from 'lucide-react';
+import { Github, Palette, Zap, Cpu, ArrowUpRight, MessageSquare } from 'lucide-react';
 
 export default function ExperimentsPage() {
   const [filter, setFilter] = useState<string>('all');
