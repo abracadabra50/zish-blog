@@ -1,0 +1,98 @@
+
+> zish-blog@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.31:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     ✓ mdxRs
+
+ ✓ Starting...
+ ✓ Ready in 1089ms
+ ○ Compiling /experiments/chat-assistant ...
+ ⨯ ./node_modules/@ai-sdk/gateway/dist/index.mjs:12:1
+Module not found: Package path ./v4 is not exported from package /Users/zishan/Downloads/zish-blog/node_modules/zod (see exports field in /Users/zishan/Downloads/zish-blog/node_modules/zod/package.json)
+  10 |
+  11 | // src/errors/create-gateway-error.ts
+> 12 | import { z as z2 } from "zod/v4";
+     | ^
+  13 |
+  14 | // src/errors/gateway-error.ts
+  15 | var marker = "vercel.ai.gateway.error";
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/ai/dist/index.mjs
+./node_modules/@ai-sdk/react/dist/index.mjs
+./src/app/experiments/chat-assistant/page.tsx
+ ⨯ ./node_modules/@ai-sdk/gateway/dist/index.mjs:12:1
+Module not found: Package path ./v4 is not exported from package /Users/zishan/Downloads/zish-blog/node_modules/zod (see exports field in /Users/zishan/Downloads/zish-blog/node_modules/zod/package.json)
+  10 |
+  11 | // src/errors/create-gateway-error.ts
+> 12 | import { z as z2 } from "zod/v4";
+     | ^
+  13 |
+  14 | // src/errors/gateway-error.ts
+  15 | var marker = "vercel.ai.gateway.error";
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/ai/dist/index.mjs
+./node_modules/@ai-sdk/react/dist/index.mjs
+./src/app/experiments/chat-assistant/page.tsx
+ ⨯ ./node_modules/@ai-sdk/gateway/dist/index.mjs:12:1
+Module not found: Package path ./v4 is not exported from package /Users/zishan/Downloads/zish-blog/node_modules/zod (see exports field in /Users/zishan/Downloads/zish-blog/node_modules/zod/package.json)
+  10 |
+  11 | // src/errors/create-gateway-error.ts
+> 12 | import { z as z2 } from "zod/v4";
+     | ^
+  13 |
+  14 | // src/errors/gateway-error.ts
+  15 | var marker = "vercel.ai.gateway.error";
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/ai/dist/index.mjs
+./node_modules/@ai-sdk/react/dist/index.mjs
+./src/app/experiments/chat-assistant/page.tsx
+ GET /experiments/chat-assistant/ 500 in 4431ms
+ ⨯ ./node_modules/@ai-sdk/gateway/dist/index.mjs:12:1
+Module not found: Package path ./v4 is not exported from package /Users/zishan/Downloads/zish-blog/node_modules/zod (see exports field in /Users/zishan/Downloads/zish-blog/node_modules/zod/package.json)
+  10 |
+  11 | // src/errors/create-gateway-error.ts
+> 12 | import { z as z2 } from "zod/v4";
+     | ^
+  13 |
+  14 | // src/errors/gateway-error.ts
+  15 | var marker = "vercel.ai.gateway.error";
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/ai/dist/index.mjs
+./node_modules/@ai-sdk/react/dist/index.mjs
+./src/app/experiments/chat-assistant/page.tsx
+ ⨯ ./node_modules/@ai-sdk/gateway/dist/index.mjs:12:1
+Module not found: Package path ./v4 is not exported from package /Users/zishan/Downloads/zish-blog/node_modules/zod (see exports field in /Users/zishan/Downloads/zish-blog/node_modules/zod/package.json)
+  10 |
+  11 | // src/errors/create-gateway-error.ts
+> 12 | import { z as z2 } from "zod/v4";
+     | ^
+  13 |
+  14 | // src/errors/gateway-error.ts
+  15 | var marker = "vercel.ai.gateway.error";
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/ai/dist/index.mjs
+./node_modules/@ai-sdk/react/dist/index.mjs
+./src/app/experiments/chat-assistant/page.tsx
+ GET /experiments/chat-assistant/ 500 in 522ms
+ GET /experiments/chat-assistant/ 500 in 12ms
+[?25h
